@@ -115,7 +115,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <div className="mb-12 space-y-2">
               <h2 className="text-3xl font-headline font-bold">Technical Skills</h2>
-              <div className="h-1 w-20 bg-primary"></div>
+              <div className="h-1 w-20 bg-white"></div>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
               {skills.map((skill, idx) => (
@@ -142,7 +142,7 @@ export default function Home() {
             <div className="mb-12 space-y-2 flex justify-between items-end">
               <div>
                 <h2 className="text-3xl font-headline font-bold">Featured Projects</h2>
-                <div className="h-1 w-20 bg-primary"></div>
+                <div className="h-1 w-20 bg-white"></div>
               </div>
               <Button variant="default" className="bg-white text-black hover:bg-accent" asChild>
                 <a href="https://github.com/Ayushverma41" target="_blank" rel="noopener noreferrer">
