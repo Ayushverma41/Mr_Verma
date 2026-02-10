@@ -78,18 +78,36 @@ export default function Home() {
                   <a href="#projects">View Projects <ArrowRight className="ml-2 w-4 h-4" /></a>
                 </Button>
                 <div className="flex items-center gap-3">
-                  <div className="p-2 rounded-full border border-white/10 text-white/40">
+                  <a 
+                    href="https://github.com/Ayushverma41" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="p-2 rounded-full border border-white/10 text-white/40 hover:text-white hover:border-white/30 transition-all"
+                  >
                     <Github className="w-5 h-5" />
-                  </div>
-                  <div className="p-2 rounded-full border border-white/10 text-white/40">
+                  </a>
+                  <a 
+                    href="https://linkedin.com/in/ayushverma41/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="p-2 rounded-full border border-white/10 text-white/40 hover:text-white hover:border-white/30 transition-all"
+                  >
                     <Linkedin className="w-5 h-5" />
-                  </div>
-                  <div className="p-2 rounded-full border border-white/10 text-white/40">
+                  </a>
+                  <a 
+                    href="mailto:ayush21032016@gmail.com" 
+                    className="p-2 rounded-full border border-white/10 text-white/40 hover:text-white hover:border-white/30 transition-all"
+                  >
                     <Mail className="w-5 h-5" />
-                  </div>
-                  <div className="p-2 rounded-full border border-white/10 text-white/40">
+                  </a>
+                  <a 
+                    href="https://linktr.ee/ayush21032016" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="p-2 rounded-full border border-white/10 text-white/40 hover:text-white hover:border-white/30 transition-all"
+                  >
                     <Terminal className="w-5 h-5" />
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
