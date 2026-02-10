@@ -220,10 +220,10 @@ export default function Home() {
             </div>
 
             <div className="pt-12 grid grid-cols-2 md:grid-cols-4 gap-8 opacity-50">
-               <a href="https://github.com/Ayushverma41" target="_blank" className="hover:opacity-100 transition-opacity">GitHub</a>
-               <a href="https://linktr.ee/ayush21032016" target="_blank" className="hover:opacity-100 transition-opacity">Linktree</a>
-               <a href="https://linkedin.com/in/ayushverma41/" target="_blank" className="hover:opacity-100 transition-opacity">LinkedIn</a>
-               <a href="mailto:ayush21032016@gmail.com" className="hover:opacity-100 transition-opacity">Email</a>
+               <div className="cursor-default">GitHub</div>
+               <div className="cursor-default">Linktree</div>
+               <div className="cursor-default">LinkedIn</div>
+               <div className="cursor-default">Email</div>
             </div>
           </div>
         </section>
