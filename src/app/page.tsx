@@ -119,9 +119,10 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
               {skills.map((skill, idx) => (
-                <div 
+                <a 
                   key={skill.name} 
-                  className="p-6 rounded-2xl border border-white/5 bg-black hover:border-primary/50 transition-all group fade-in-scroll"
+                  href="#"
+                  className="p-6 rounded-2xl border border-white/5 bg-black hover:border-primary/50 hover:bg-white/[0.03] transition-all group fade-in-scroll block"
                   style={{ animationDelay: `${idx * 100}ms` }}
                 >
                   <div className="mb-4 text-white/40 group-hover:text-white transition-colors">
@@ -129,7 +130,7 @@ export default function Home() {
                   </div>
                   <h3 className="font-medium text-sm text-white/90">{skill.name}</h3>
                   <span className="text-[10px] text-white/30 uppercase tracking-widest mt-1 block">{skill.category}</span>
-                </div>
+                </a>
               ))}
             </div>
           </div>
@@ -143,8 +144,10 @@ export default function Home() {
                 <h2 className="text-3xl font-headline font-bold">Featured Projects</h2>
                 <div className="h-1 w-20 bg-primary"></div>
               </div>
-              <Button variant="link" className="text-white/50 hover:text-white" asChild>
-                <a href="https://github.com/Ayushverma41" target="_blank" rel="noopener noreferrer">Explore all <Github className="ml-2 w-4 h-4" /></a>
+              <Button variant="default" className="bg-white text-black hover:bg-accent" asChild>
+                <a href="https://github.com/Ayushverma41" target="_blank" rel="noopener noreferrer">
+                  Explore all <Github className="ml-2 w-4 h-4" />
+                </a>
               </Button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
