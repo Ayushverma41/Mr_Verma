@@ -65,7 +65,12 @@ export function Navbar() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="bg-black border-white/10 text-white w-[250px]">
-              <SheetTitle className="text-white font-headline font-bold mb-8">Navigation</SheetTitle>
+              <SheetTitle className="text-white font-headline font-bold mb-8 flex items-center gap-2">
+                <div className="p-1 rounded-lg bg-primary">
+                  <BrainCircuit className="w-4 h-4 text-white" />
+                </div>
+                <span>Mr Verma</span>
+              </SheetTitle>
               <div className="flex flex-col gap-6 pt-4">
                 {navLinks.map((link) => (
                   <a
