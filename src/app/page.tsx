@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import { Navbar } from "@/components/ui/navbar";
 import { Button } from "@/components/ui/button";
@@ -197,15 +196,25 @@ export default function Home() {
               </p>
             </div>
             
-            <div className="flex flex-col md:flex-row items-center justify-center gap-6 pt-8">
-              <Button size="lg" className="bg-white text-black hover:bg-accent w-full md:w-auto" asChild>
+            <div className="flex flex-wrap items-center justify-center gap-4 pt-8 max-w-3xl mx-auto">
+              <Button size="lg" className="bg-white text-black hover:bg-accent w-full sm:w-auto" asChild>
                 <a href="mailto:ayush21032016@gmail.com">
                   <Mail className="mr-2 w-5 h-5" /> Send an Email
                 </a>
               </Button>
-              <Button size="lg" variant="outline" className="border-white/10 hover:bg-white/5 w-full md:w-auto" asChild>
+              <Button size="lg" variant="outline" className="border-white/10 hover:bg-white/5 w-full sm:w-auto" asChild>
                 <a href="https://linkedin.com/in/ayushverma41/" target="_blank">
                   <Linkedin className="mr-2 w-5 h-5" /> LinkedIn Profile
+                </a>
+              </Button>
+              <Button size="lg" variant="outline" className="border-white/10 hover:bg-white/5 w-full sm:w-auto" asChild>
+                <a href="https://github.com/Ayushverma41" target="_blank">
+                  <Github className="mr-2 w-5 h-5" /> GitHub Profile
+                </a>
+              </Button>
+              <Button size="lg" variant="outline" className="border-white/10 hover:bg-white/5 w-full sm:w-auto" asChild>
+                <a href="https://linktr.ee/ayush21032016" target="_blank">
+                  <Terminal className="mr-2 w-5 h-5" /> Linktree
                 </a>
               </Button>
             </div>
