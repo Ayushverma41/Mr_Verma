@@ -30,14 +30,14 @@ export function Navbar() {
         isScrolled ? "bg-black/80 backdrop-blur-md border-b border-white/10" : "bg-transparent"
       )}
     >
-      <div className="max-w-6xl mx-auto flex items-center justify-between">
-        <a href="#" className="flex items-center gap-2 group">
+      <div className="max-w-6xl mx-auto flex items-center">
+        <a href="#" className="flex items-center gap-2 group flex-shrink-0">
           <div className="p-1.5 rounded-lg bg-primary group-hover:bg-accent transition-colors">
             <BrainCircuit className="w-5 h-5 text-white group-hover:text-black transition-colors" />
           </div>
-          <span className="font-headline font-bold text-lg tracking-tight">VERMA AI</span>
+          <span className="font-headline font-bold text-lg tracking-tight">Mr Verma</span>
         </a>
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex flex-1 items-center justify-center gap-8 translate-x-12">
           {navLinks.map((link) => (
             <a
               key={link.name}
@@ -48,6 +48,8 @@ export function Navbar() {
             </a>
           ))}
         </div>
+        {/* Spacer to maintain layout balance if needed, or leave as is for requested offset */}
+        <div className="hidden md:block flex-shrink-0 w-32"></div>
       </div>
     </nav>
   );
