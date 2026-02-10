@@ -37,7 +37,7 @@ export function Navbar() {
           </div>
           <span className="font-headline font-bold text-lg tracking-tight">Mr Verma</span>
         </a>
-        <div className="hidden md:flex flex-1 items-center justify-center gap-8 translate-x-12">
+        <div className="hidden md:flex flex-1 items-center justify-center gap-8 translate-x-24">
           {navLinks.map((link) => (
             <a
               key={link.name}
