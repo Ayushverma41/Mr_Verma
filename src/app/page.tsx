@@ -1,7 +1,8 @@
+
 import Image from "next/image";
 import { Navbar } from "@/components/ui/navbar";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Github, Linkedin, Mail, ExternalLink, Code2, Database, Brain, Cpu, Terminal, ArrowRight, Heart, Smartphone } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
@@ -77,18 +78,18 @@ export default function Home() {
                   <a href="#projects">View Projects <ArrowRight className="ml-2 w-4 h-4" /></a>
                 </Button>
                 <div className="flex items-center gap-3">
-                  <a href="https://github.com/Ayushverma41" target="_blank" className="p-2 rounded-full border border-white/10 hover:bg-white/5 transition-colors">
+                  <div className="p-2 rounded-full border border-white/10 text-white/40">
                     <Github className="w-5 h-5" />
-                  </a>
-                  <a href="https://linkedin.com/in/ayushverma41/" target="_blank" className="p-2 rounded-full border border-white/10 hover:bg-white/5 transition-colors">
+                  </div>
+                  <div className="p-2 rounded-full border border-white/10 text-white/40">
                     <Linkedin className="w-5 h-5" />
-                  </a>
-                  <a href="mailto:ayush21032016@gmail.com" className="p-2 rounded-full border border-white/10 hover:bg-white/5 transition-colors">
+                  </div>
+                  <div className="p-2 rounded-full border border-white/10 text-white/40">
                     <Mail className="w-5 h-5" />
-                  </a>
-                  <a href="https://linktr.ee/ayush21032016" target="_blank" className="p-2 rounded-full border border-white/10 hover:bg-white/5 transition-colors">
+                  </div>
+                  <div className="p-2 rounded-full border border-white/10 text-white/40">
                     <Terminal className="w-5 h-5" />
-                  </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -97,7 +98,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-primary blur-[100px] opacity-20 animate-pulse"></div>
                 <div className="relative z-10 w-full h-full rounded-3xl overflow-hidden border border-white/10 group">
                    <Image 
-                    src={profileImage?.imageUrl || "/profile.png"} 
+                    src={profileImage?.imageUrl || "https://picsum.photos/seed/ayush/400/400"} 
                     alt="Ayush Kumar Verma" 
                     fill 
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -143,7 +144,7 @@ export default function Home() {
                 <div className="h-1 w-20 bg-primary"></div>
               </div>
               <Button variant="link" className="text-white/50 hover:text-white" asChild>
-                <a href="https://github.com/Ayushverma41" target="_blank">Explore all <Github className="ml-2 w-4 h-4" /></a>
+                <a href="https://github.com/Ayushverma41" target="_blank" rel="noopener noreferrer">Explore all <Github className="ml-2 w-4 h-4" /></a>
               </Button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -151,7 +152,7 @@ export default function Home() {
                 <Card key={project.title} className="bg-black border-white/5 overflow-hidden group fade-in-scroll" style={{ animationDelay: `${idx * 150}ms` }}>
                   <div className="aspect-video relative overflow-hidden">
                     <Image 
-                      src={project.image || "/project-placeholder.png"} 
+                      src={project.image || "https://picsum.photos/seed/project/600/400"} 
                       alt={project.title} 
                       fill 
                       className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -159,7 +160,7 @@ export default function Home() {
                     />
                     <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                       <Button variant="outline" className="bg-white/10 backdrop-blur-sm border-white/20 text-white" asChild>
-                        <a href={project.link} target="_blank">View Project <ExternalLink className="ml-2 w-4 h-4" /></a>
+                        <a href={project.link} target="_blank" rel="noopener noreferrer">View Project <ExternalLink className="ml-2 w-4 h-4" /></a>
                       </Button>
                     </div>
                   </div>
@@ -203,27 +204,20 @@ export default function Home() {
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="border-white/10 hover:bg-white/5 w-full" asChild>
-                <a href="https://linkedin.com/in/ayushverma41/" target="_blank">
+                <a href="https://linkedin.com/in/ayushverma41/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="mr-2 w-5 h-5" /> LinkedIn Profile
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="border-white/10 hover:bg-white/5 w-full" asChild>
-                <a href="https://github.com/Ayushverma41" target="_blank">
+                <a href="https://github.com/Ayushverma41" target="_blank" rel="noopener noreferrer">
                   <Github className="mr-2 w-5 h-5" /> GitHub Profile
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="border-white/10 hover:bg-white/5 w-full" asChild>
-                <a href="https://linktr.ee/ayush21032016" target="_blank">
+                <a href="https://linktr.ee/ayush21032016" target="_blank" rel="noopener noreferrer">
                   <Terminal className="mr-2 w-5 h-5" /> Linktree
                 </a>
               </Button>
-            </div>
-
-            <div className="pt-12 grid grid-cols-2 md:grid-cols-4 gap-8 opacity-50">
-               <div className="cursor-default">GitHub</div>
-               <div className="cursor-default">Linktree</div>
-               <div className="cursor-default">LinkedIn</div>
-               <div className="cursor-default">Email</div>
             </div>
           </div>
         </section>

@@ -1,3 +1,34 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile-pic",
+      "description": "Professional profile picture of Ayush Kumar Verma",
+      "imageUrl": "https://picsum.photos/seed/ayush/400/400",
+      "imageHint": "professional man"
+    },
+    {
+      "id": "project-commandpal",
+      "description": "Terminal interface representing an AI command assistant",
+      "imageUrl": "https://images.unsplash.com/photo-1608742213509-815b97c30b36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21wdXRlciUyMHRlcm1pbmFsfGVufDB8fHx8MTc3MDc0Mzc1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "computer terminal"
+    },
+    {
+      "id": "project-mental",
+      "description": "Data visualization representing mental state analysis",
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkYXRhJTIwYW5hbHlzaXN8ZW58MHx8fHwxNzcwNzAzODk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data analysis"
+    },
+    {
+      "id": "project-pure",
+      "description": "Clean modern e-commerce website interface",
+      "imageUrl": "https://images.unsplash.com/photo-1680016661694-1cd3faf31c3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3ZWJzaXRlJTIwZGVzaWdufGVufDB8fHx8MTc3MDcyMTk0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "website design"
+    },
+    {
+      "id": "project-pulse",
+      "description": "Recommendation system dashboard with connecting nodes",
+      "imageUrl": "https://images.unsplash.com/photo-1495592822108-9e6261896da8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYWNoaW5lJTIwbGVhcm5pbmd8ZW58MHx8fHwxNzcwNzI1NTk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "machine learning"
+    }
+  ]
 }
