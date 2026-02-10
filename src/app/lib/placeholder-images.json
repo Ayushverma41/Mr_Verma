@@ -1,0 +1,35 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "profile-pic",
+      "description": "Professional profile picture of Ayush Kumar Verma",
+      "imageUrl": "https://picsum.photos/seed/ayush/400/400",
+      "imageHint": "professional man"
+    },
+    {
+      "id": "project-commandpal",
+      "description": "Terminal interface representing an AI command assistant",
+      "imageUrl": "https://picsum.photos/seed/terminal/600/400",
+      "imageHint": "computer terminal"
+    },
+    {
+      "id": "project-mental",
+      "description": "Data visualization representing mental state analysis",
+      "imageUrl": "https://picsum.photos/seed/brain/600/400",
+      "imageHint": "data analysis"
+    },
+    {
+      "id": "project-pure",
+      "description": "Clean modern e-commerce website interface",
+      "imageUrl": "https://picsum.photos/seed/shop/600/400",
+      "imageHint": "website design"
+    },
+    {
+      "id": "project-pulse",
+      "description": "Recommendation system dashboard with connecting nodes",
+      "imageUrl": "https://picsum.photos/seed/nodes/600/400",
+      "imageHint": "machine learning"
+    }
+  ]
+}
