@@ -156,7 +156,7 @@ export default function Home() {
 
         {/* Projects Section */}
         <section id="projects" className="py-20 px-6">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <div className="mb-12 space-y-2 flex justify-between items-end">
               <div>
                 <h2 className="text-3xl font-headline font-bold">Featured Projects</h2>
