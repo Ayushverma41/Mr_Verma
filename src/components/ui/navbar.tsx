@@ -37,7 +37,7 @@ export function Navbar() {
           </div>
           <span className="font-headline font-bold text-lg tracking-tight">Mr Verma</span>
         </a>
-        <div className="hidden md:flex flex-1 items-center justify-center gap-8 translate-x-24">
+        <div className="hidden md:flex flex-1 items-center justify-center gap-8 translate-x-32">
           {navLinks.map((link) => (
             <a
               key={link.name}
@@ -48,7 +48,7 @@ export function Navbar() {
             </a>
           ))}
         </div>
-        {/* Spacer to maintain layout balance if needed, or leave as is for requested offset */}
+        {/* Spacer to maintain layout balance */}
         <div className="hidden md:block flex-shrink-0 w-32"></div>
       </div>
     </nav>
