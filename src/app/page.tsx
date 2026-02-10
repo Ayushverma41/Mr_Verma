@@ -4,7 +4,7 @@ import { Navbar } from "@/components/ui/navbar";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Github, Linkedin, Mail, ExternalLink, Code2, Database, Brain, Cpu, Terminal, ArrowRight, Heart } from "lucide-react";
+import { Github, Linkedin, Mail, ExternalLink, Code2, Database, Brain, Cpu, Terminal, ArrowRight, Heart, Smartphone } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
     { name: "Natural Language Processing", category: "AI/ML", icon: <Brain className="w-4 h-4" /> },
     { name: "Machine Learning Foundations", category: "AI/ML", icon: <Cpu className="w-4 h-4" /> },
     { name: "AI with ML in Java", category: "AI/ML", icon: <Brain className="w-4 h-4" /> },
-    { name: "AI for Beginners", category: "AI/ML", icon: <Brain className="w-4 h-4" /> },
+    { name: "App Development: Flutter", category: "Mobile Dev", icon: <Smartphone className="w-4 h-4" /> },
   ];
 
   const projects = [
