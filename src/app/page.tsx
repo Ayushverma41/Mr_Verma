@@ -111,10 +111,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="relative flex justify-center -mt-10 sm:-mt-16 md:-mt-20 fade-in-scroll [animation-delay:200ms] order-1 lg:order-2">
-              <div className="relative w-72 h-72 sm:w-96 sm:h-96 md:w-[28rem] md:h-[28rem]">
-                <div className="absolute inset-0 bg-primary blur-[100px] opacity-20 animate-pulse"></div>
-                <div className="relative w-96 h-96 sm:w-[28rem] sm:h-[28rem] md:w-[34rem] md:h-[34rem] lg:w-[40rem] lg:h-[40rem]">
+            <div className="relative flex justify-center -mt-12 sm:-mt-20 md:-mt-28 lg:-mt-32 fade-in-scroll [animation-delay:200ms] order-1 lg:order-2">
+              <div className="relative w-96 h-96 sm:w-[28rem] sm:h-[28rem] md:w-[34rem] md:h-[34rem] lg:w-[40rem] lg:h-[40rem]">
+                {/* Glow */}
+                <div className="absolute inset-0 bg-primary blur-[120px] opacity-20 animate-pulse"></div>
+                {/* Image Container */}
+                <div className="relative z-10 w-full h-full rounded-3xl overflow-hidden group">
                   <Image
                     src={profileImage?.imageUrl || "/images/Profile.png"}
                     alt="Ayush Kumar Verma"
