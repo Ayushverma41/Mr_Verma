@@ -115,13 +115,13 @@ export default function Home() {
               <div className="relative w-56 h-56 sm:w-72 sm:h-72 md:w-96 md:h-96">
                 <div className="absolute inset-0 bg-primary blur-[80px] sm:blur-[100px] opacity-20 animate-pulse"></div>
                 <div className="relative z-10 w-full h-full rounded-3xl overflow-hidden border border-white/10 group">
-                   <Image
-                     src={profileImage?.imageUrl || "/images/Profile Image 05.png"}
-                     alt="Ayush Kumar Verma"
-                     fill
-                     className="object-cover transition-transform duration-500 group-hover:scale-110"
-                     data-ai-hint="professional man"
-                     />
+                  <Image
+                    src={profileImage?.imageUrl || "/images/Profile.png"}
+                    alt="Ayush Kumar Verma"
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                    data-ai-hint="professional man"
+                    />
                 </div>
               </div>
             </div>
