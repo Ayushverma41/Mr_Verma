@@ -112,9 +112,9 @@ export default function Home() {
               </div>
             </div>
             <div className="relative flex justify-center fade-in-scroll [animation-delay:200ms] order-1 lg:order-2">
-              <div className="relative w-56 h-56 sm:w-72 sm:h-72 md:w-96 md:h-96">
-                <div className="absolute inset-0 bg-primary blur-[80px] sm:blur-[100px] opacity-20 animate-pulse"></div>
-                <div className="relative z-10 w-full h-full rounded-3xl overflow-hidden border border-white/10 group">
+              <div className="relative w-72 h-72 sm:w-96 sm:h-96 md:w-[28rem] md:h-[28rem]">
+                <div className="absolute inset-0 bg-primary blur-[100px] opacity-20 animate-pulse"></div>
+                <div className="relative z-10 w-full h-full rounded-3xl overflow-hidden group">
                   <Image
                     src={profileImage?.imageUrl || "/images/Profile.png"}
                     alt="Ayush Kumar Verma"
@@ -127,7 +127,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         {/* Skills Section */}
         <section id="skills" className="py-20 px-6 bg-white/[0.02]">
           <div className="max-w-6xl mx-auto">
