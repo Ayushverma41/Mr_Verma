@@ -68,8 +68,7 @@ export default function Home() {
   { 
     name: "App Development: Flutter", 
     category: "Mobile Dev", 
-    icon: <Smartphone className="w-4 h-4" />, 
-    link: "#"
+    icon: <Smartphone className="w-4 h-4" />
   },
 ];
 
