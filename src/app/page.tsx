@@ -11,17 +11,67 @@ export default function Home() {
   const profileImage = PlaceHolderImages.find(img => img.id === "profile-pic");
   
   const skills = [
-    { name: "Python", category: "Languages", icon: <Code2 className="w-4 h-4" />, link: https://drive.google.com/file/d/1R_D1v_DcRJn240nHzTxzyS9eiAdPkMuu/view?usp=sharing },
-    { name: "C++", category: "Languages", icon: <Code2 className="w-4 h-4" />, link: https://drive.google.com/file/d/1j-Zhu2B_NzXURpNWNRaFykh6PNrEAZ_f/view?usp=sharing },
-    { name: "C", category: "Languages", icon: <Code2 className="w-4 h-4" />, link: https://drive.google.com/file/d/1rfKmlho1in0XmGuWhUnxUi5hWAtayn62/view?usp=sharing },
-    { name: "SQL Programming", category: "Databases", icon: <Database className="w-4 h-4" />, link: https://drive.google.com/file/d/1wOQXCkWyLfb0VoHU4CuWAZnMTJbH2pOT/view?usp=sharing },
-    { name: "Relational Database", category: "Databases", icon: <Database className="w-4 h-4" />, link: https://drive.google.com/file/d/1jadCvlCPB670un0qBGfQ9RqNzmXm1qy0/view?usp=sharing },
-    { name: "Database Design", category: "Databases", icon: <Database className="w-4 h-4" />, link: https://drive.google.com/file/d/1t3RQaxHfjTJxn6jF0RwTRnx-NhmcPlg7/view?usp=sharing },
-    { name: "Natural Language Processing", category: "AI/ML", icon: <Brain className="w-4 h-4" />, link: https://drive.google.com/file/d/1LoR2MSJ1NCxeTcoCxtfOHbAlpdCF2ct8/view?usp=sharing },
-    { name: "Machine Learning Foundations", category: "AI/ML", icon: <Cpu className="w-4 h-4" />, link: https://drive.google.com/file/d/1iJl7dsLi0pfVP3ynT3q59etEnCUdj1bk/view?usp=sharing },
-    { name: "AI with ML in Java", category: "AI/ML", icon: <Brain className="w-4 h-4" />, link: https://drive.google.com/file/d/1xLHWzfJBVhG2sSAEcdArYOHdf6HSfmRw/view?usp=sharing },
-    { name: "App Development: Flutter", category: "Mobile Dev", icon: <Smartphone className="w-4 h-4" />, link:  },
-  ];
+  { 
+    name: "Python", 
+    category: "Languages", 
+    icon: <Code2 className="w-4 h-4" />, 
+    link: "https://drive.google.com/file/d/1R_D1v_DcRJn240nHzTxzyS9eiAdPkMuu/view?usp=sharing" 
+  },
+  { 
+    name: "C++", 
+    category: "Languages", 
+    icon: <Code2 className="w-4 h-4" />, 
+    link: "https://drive.google.com/file/d/1j-Zhu2B_NzXURpNWNRaFykh6PNrEAZ_f/view?usp=sharing" 
+  },
+  { 
+    name: "C", 
+    category: "Languages", 
+    icon: <Code2 className="w-4 h-4" />, 
+    link: "https://drive.google.com/file/d/1rfKmlho1in0XmGuWhUnxUi5hWAtayn62/view?usp=sharing" 
+  },
+  { 
+    name: "SQL Programming", 
+    category: "Databases", 
+    icon: <Database className="w-4 h-4" />, 
+    link: "https://drive.google.com/file/d/1wOQXCkWyLfb0VoHU4CuWAZnMTJbH2pOT/view?usp=sharing" 
+  },
+  { 
+    name: "Relational Database", 
+    category: "Databases", 
+    icon: <Database className="w-4 h-4" />, 
+    link: "https://drive.google.com/file/d/1jadCvlCPB670un0qBGfQ9RqNzmXm1qy0/view?usp=sharing" 
+  },
+  { 
+    name: "Database Design", 
+    category: "Databases", 
+    icon: <Database className="w-4 h-4" />, 
+    link: "https://drive.google.com/file/d/1t3RQaxHfjTJxn6jF0RwTRnx-NhmcPlg7/view?usp=sharing" 
+  },
+  { 
+    name: "Natural Language Processing", 
+    category: "AI/ML", 
+    icon: <Brain className="w-4 h-4" />, 
+    link: "https://drive.google.com/file/d/1LoR2MSJ1NCxeTcoCxtfOHbAlpdCF2ct8/view?usp=sharing" 
+  },
+  { 
+    name: "Machine Learning Foundations", 
+    category: "AI/ML", 
+    icon: <Cpu className="w-4 h-4" />, 
+    link: "https://drive.google.com/file/d/1iJl7dsLi0pfVP3ynT3q59etEnCUdj1bk/view?usp=sharing" 
+  },
+  { 
+    name: "AI with ML in Java", 
+    category: "AI/ML", 
+    icon: <Brain className="w-4 h-4" />, 
+    link: "https://drive.google.com/file/d/1xLHWzfJBVhG2sSAEcdArYOHdf6HSfmRw/view?usp=sharing" 
+  },
+  { 
+    name: "App Development: Flutter", 
+    category: "Mobile Dev", 
+    icon: <Smartphone className="w-4 h-4" />, 
+    //link: ""
+  },
+];
 
   const projects = [
     {
