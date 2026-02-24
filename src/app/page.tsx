@@ -69,7 +69,7 @@ export default function Home() {
     name: "App Development: Flutter", 
     category: "Mobile Dev", 
     icon: <Smartphone className="w-4 h-4" />, 
-    //link: ""
+    link: "#"
   },
 ];
 
@@ -190,7 +190,9 @@ export default function Home() {
               {skills.map((skill, idx) => (
                 <a 
                   key={skill.name} 
-                  href="#"
+                  href={skill.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-4 sm:p-6 rounded-2xl border border-white/5 bg-black hover:border-primary/50 hover:bg-white/[0.03] transition-all group fade-in-scroll block"
                   style={{ animationDelay: `${idx * 50}ms` }}
                 >
