@@ -102,7 +102,7 @@ export default function Home() {
       image: "/images/Pure.png",
       tags: ["Frontend", "UX/UI", "Web Design", "Responsive"]
     }
-
+    ];
   return (
     <div className="min-h-screen bg-black text-white selection:bg-accent selection:text-black">
       <Navbar />
