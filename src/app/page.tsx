@@ -101,7 +101,16 @@ export default function Home() {
       image: PlaceHolderImages.find(img => img.id === "project-pure")?.imageUrl,
       tags: ["Frontend", "UX/UI", "Web Design", "Responsive"]
     }
-  ];
+    <div className="group relative">
+    <div className="p-6 bg-neutral-900 rounded-xl">
+      <h3>PURE E-Commerce</h3>
+    </div>
+    <iframe
+    src="https://ayushverma41.github.io/Pure/buyer.html"
+    className="absolute top-0 left-0 w-full h-full opacity-0 group-hover:opacity-100 transition"
+      />
+      </div>
+        ];
 
   return (
     <div className="min-h-screen bg-black text-white selection:bg-accent selection:text-black">
