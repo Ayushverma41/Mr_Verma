@@ -98,8 +98,7 @@ export default function Home() {
       title: "PURE E-Commerce",
       description: "A modern, high-performance frontend for e-commerce platforms with a focus on user experience and minimalist design.",
       link: "https://ayushverma41.github.io/Pure/",
-      image: "https://image.thum.io/get/fullpage/https://ayushverma41.github.io/Pure/buyer.html",
-      //image: "/images/Pure.png",
+      image: "/images/Pure.png",
       tags: ["Frontend", "UX/UI", "Web Design", "Responsive"]
     }
     ];
