@@ -1,0 +1,39 @@
+src/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+│
+├── components/
+│   ├── cards/
+│   │   ├── CertificateCard.tsx
+|   |   ├── ExperienceCard.tsx
+|   |   ├── ProjectCard.tsx
+│   │   └── SkillCard.tsx
+│   │
+│   ├── layout/
+│   │   ├── Footer.tsx
+│   │   ├── Header.tsx
+│   │   └── Navbar.tsx
+│   │
+│   ├── sections/
+│   │   ├── CertificationsSection.tsx
+│   │   ├── ContactSection.tsx
+│   │   ├── ExperienceSection.tsx
+│   │   ├── HeroSection.tsx
+│   │   ├── ProjectsSection.tsx
+│   │   └── SkillsSection.tsx
+│   │
+│   │
+│   └── ui/
+│
+├── data/
+│   ├── projects.ts
+│   ├── skills.ts
+│   └── socials.ts
+│
+├── types/
+│   ├── project.ts
+│   └── skill.ts
+│
+└── lib/
