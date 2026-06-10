@@ -1,0 +1,85 @@
+Cisco Networking Academy:
+Cybersecurity Essentials  --  https://www.credly.com/badges/448b0563-00fc-4d9c-bf04-26f36ee66555/public_url
+
+Introduction to Cybersecurity  --  https://www.credly.com/badges/64978841-1d15-4a9a-8e43-5ea7d4b58692/public_url
+Introduction to Packet Tracer  --  
+
+Alibaba cloud certification:
+Certified developer
+
+AWS:
+AWS Academy Graduate - AWS Academy Cloud Foundations: issued on 08/16/2024
+AWS Academy Graduate - AWS Academy Machine Learning Foundations : issued on 08/17/2024
+AWS Academy Graduate - AWS Academy Machine Learning for Natural Language Processing : issued on 01/19/2025
+
+Cisco:
+CPA: Programming Essentials in C++
+PCAP: Programming Essentials in Python  --  https://www.credly.com/badges/606a9743-90bb-4c93-9815-2426991b475d/public_url
+CLA: Programming Essentials in C
+Cybersecurity Essentials  --  https://www.credly.com/badges/448b0563-00fc-4d9c-bf04-26f36ee66555/public_url
+
+CCNA: 
+Enterprise Networking, Security, and Automation   --   https://www.credly.com/badges/cc882056-fc78-4e12-a53e-a79ba42ec8af/public_url
+Introduction to Networks  --  https://www.credly.com/badges/7156e17c-5b0a-4278-978a-4d8fed0a5f6b/public_url
+Switching, Routing, and WirelessEssentials  --  https://www.credly.com/badges/244e6140-00a0-4f63-9361-ae2b3abd6702/public_url
+
+
+HP life foundation:
+Agile Project Management
+AI for Beginners
+
+Oracle
+Database Design
+Database Programming with SQL
+Java Fundamentals
+Java Programming
+Artificial Intelligence with Machine Learning in Java
+
+Salesforce:
+LastMile Program - Salesforce AI Agent Developer track  --  
+
+
+
+
+
+
+All Certificates
+
+Salesforce:
+LastMile Program - Salesforce AI Agent Developer track: Issued Date: December 23, 2025
+
+Oracle
+Database Design
+Database Programming with SQL
+Java Fundamentals
+Java Programming
+Artificial Intelligence with Machine Learning in Java: issue date 26th June 2024
+
+HP life foundation:
+Agile Project Management
+AI for Beginners
+
+CCNA:
+Introduction to Networks 
+Switching, Routing, and WirelessEssentials
+Enterprise Networking, Security, and Automation
+
+Cisco:
+CPA: Programming Essentials in C++
+PCAP: Programming Essentials in Python : issue date 28 May 2024
+CLA: Programming Essentials in C
+Cybersecurity Essentials
+
+Cisco Networking Academy:
+Cybersecurity Essentials
+Introduction to Cybersecurity
+
+AWS:
+AWS Academy Graduate - AWS Academy Cloud Foundations: issued on 08/16/2024
+AWS Academy Graduate - AWS Academy Machine Learning Foundations : issued on 08/17/2024
+AWS Academy Graduate - AWS Academy Machine Learning for Natural Language Processing : issued on 01/19/2025
+
+
+
+
+
