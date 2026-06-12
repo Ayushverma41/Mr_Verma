@@ -137,7 +137,7 @@ const skills: Skill[] = [
     credentials: [
       {
         label: 'Programming Essentials in C++',
-        src: '/certificates/Cisco/AyushVerma-Programming Esse-C++ certificate.pdf',
+        src: '/certificates/Cisco/programming-essentials-cpp.pdf',
       },
     ],
   },
