@@ -17,6 +17,14 @@ const links = [
   { label: 'Experience', href: '#experience' },
 ];
 
+const coreStrengths = [
+  'Natural Language Processing',
+  'Machine Learning',
+  'Full-Stack Development',
+  'Cloud Technologies',
+  'Scalable Systems',
+];
+
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [aboutOpen, setAboutOpen] = useState(false);
@@ -239,13 +247,13 @@ export default function Navbar() {
               <div className="relative flex items-start justify-between gap-4">
                 <div>
                   {/* Badge */}
-                  {/* <div className="inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 backdrop-blur-xl">
+                  <div className="inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 backdrop-blur-xl">
                     <Sparkles className="h-4 w-4 text-cyan-300" />
 
                     <span className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-200">
-                      Summary
+                      Engineer & Product Builder
                     </span>
-                  </div> */}
+                  </div>
 
                   {/* Title */}
                   <h3 className="mt-5 text-3xl font-black tracking-tight text-white sm:text-4xl">
@@ -253,14 +261,22 @@ export default function Navbar() {
                   </h3>
 
                   {/* Description */}
-                  <p className="mt-3 max-w-2xl text-base leading-8 text-slate-400 sm:text-lg">
-                    Software Engineer and NLP-focused
-                    builder crafting AI-powered products
-                    with scalable architecture, elegant
-                    user experiences, and modern
-                    interactive systems designed for
-                    real-world impact.
-                  </p>
+                  <div className="mt-3 max-w-3xl space-y-3 text-base leading-8 text-slate-400 sm:text-lg">
+                    <p>
+                      I&apos;m Ayush Kumar Verma, a software engineer and
+                      NLP-focused builder who creates AI-powered products with
+                      scalable architecture, thoughtful user experiences, and
+                      modern interactive systems.
+                    </p>
+
+                    <p>
+                      My work includes natural-language command tools, mental
+                      state prediction, recommendation systems, and responsive
+                      web applications. I enjoy turning complex ideas into
+                      practical products that are reliable, accessible, and
+                      useful in real-world workflows.
+                    </p>
+                  </div>
                 </div>
 
                 {/* Close Button */}
@@ -279,8 +295,26 @@ export default function Navbar() {
                 </motion.button>
               </div>
 
+              {/* Core Strengths */}
+              <div className="relative mt-8">
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">
+                  Core Strengths
+                </p>
+
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {coreStrengths.map((strength) => (
+                    <span
+                      key={strength}
+                      className="rounded-full border border-cyan-400/20 bg-cyan-400/[0.07] px-3 py-1.5 text-xs font-medium text-cyan-200"
+                    >
+                      {strength}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
               {/* Stats */}
-              <div className="relative mt-10 grid gap-4 sm:grid-cols-3">
+              <div className="relative mt-8 grid gap-4 sm:grid-cols-3">
                 {[
                   {
                     label: 'Experience',
