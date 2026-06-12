@@ -3,48 +3,7 @@ import Header, { Section } from '@/components/layout/Header';
 import MediaPreviewDialog from '@/components/ui/media-preview-dialog';
 
 const skills = [
-  {
-    name: 'Python',
-    category: 'Languages',
-    certificate: '/certificates/Cisco/AyushVerma-Programming Esse-certificate python.pdf',
-  },
-  {
-    name: 'C++',
-    category: 'Languages',
-    certificate: '/certificates/Cisco/AyushVerma-Programming Esse-C++ certificate.pdf',
-  },
-  {
-    name: 'C',
-    category: 'Languages',
-    certificate: '/certificates/Cisco/AyushVerma-Programming Esse-certificate.pdf',
-  },
-  {
-    name: 'SQL Programming',
-    category: 'Databases',
-    certificate: '/certificates/Oracle/Database Programming with SQL.pdf',
-  },
-  {
-    name: 'Relational Database',
-    category: 'Databases',
-    certificate: '/certificates/SQL-Certificate.pdf',
-  },
-  {
-    name: 'Database Design',
-    category: 'Databases',
-    certificate: '/certificates/Oracle/Database Design.pdf',
-  },
-  {
-    name: 'Natural Language Processing',
-    category: 'AI/ML',
-    certificate: '/certificates/AWS/machine learning for natural language processing.png',
-  },
-  {
-    name: 'Machine Learning Foundations',
-    category: 'AI/ML',
-    certificate: '/certificates/AWS/Machine Learning Foundations.jpeg',
-  },
-  {
-    name: 'AI with ML in Java',
+ 
     category: 'AI/ML',
     certificate: '/certificates/Oracle/Oracle AIML Certificate.pdf',
   },
