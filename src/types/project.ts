@@ -19,10 +19,11 @@ export type SkillCategory = {
 };
 
 export type Experience = {
-  role: string;
-  company: string;
-  period: string;
-  points: string[];
+  position: string;
+  institution: string;
+  duration: string;
+  image: string;
+  institutionUrl: string;
 };
 
 export type Certificate = {

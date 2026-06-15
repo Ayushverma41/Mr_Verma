@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">Institution placeholder logo</title>
+  <rect width="200" height="200" rx="28" fill="#f8fafc"/>
+  <path d="M100 34 28 70l72 36 72-36-72-36Z" fill="#0891b2"/>
+  <path d="M52 92v45c0 13 22 29 48 29s48-16 48-29V92l-48 24-48-24Z" fill="#0f172a"/>
+  <path d="M172 72v52" stroke="#0891b2" stroke-width="10" stroke-linecap="round"/>
+</svg>
