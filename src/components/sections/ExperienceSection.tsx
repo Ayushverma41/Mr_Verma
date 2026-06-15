@@ -4,8 +4,15 @@ import type { Experience } from '@/types/project';
 
 const experiences: Experience[] = [
   {
-    position: 'Your Position',
-    institution: 'Institution Name',
+    position: 'App Developer',
+    institution: 'Gyan Ganga Institute of Technology & Sciences',
+    duration: 'Feb 2026 - Aug 2026',
+    image: '/images/experience/gg removebg-preview.png',
+    institutionUrl: 'https://ggits.org/',
+  },
+  {
+    position: 'Your Second Position',
+    institution: 'Second Institution Name',
     duration: 'Start Date - End Date',
     image: '/images/experience/institution-placeholder.svg',
     institutionUrl: 'https://example.com',
