@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title description">
+  <title id="title">Mental State Prediction project preview</title>
+  <desc id="description">Abstract neural network and text analysis visualization</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#164e63"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#background)"/>
+  <g fill="none" stroke="#67e8f9" stroke-width="4" opacity=".55">
+    <path d="M170 225h155l75 90h130l95-145h165l85 110h155"/>
+    <path d="M170 440h140l90-80h150l80 90h175l70-75h155"/>
+  </g>
+  <g fill="#22d3ee">
+    <circle cx="170" cy="225" r="11"/>
+    <circle cx="400" cy="315" r="11"/>
+    <circle cx="625" cy="170" r="11"/>
+    <circle cx="875" cy="280" r="11"/>
+    <circle cx="310" cy="440" r="11"/>
+    <circle cx="550" cy="360" r="11"/>
+    <circle cx="805" cy="450" r="11"/>
+  </g>
+  <text x="600" y="555" fill="#f8fafc" font-family="Arial, sans-serif" font-size="54" font-weight="700" text-anchor="middle">
+    Mental State Prediction
+  </text>
+  <text x="600" y="608" fill="#bae6fd" font-family="Arial, sans-serif" font-size="26" text-anchor="middle">
+    Natural Language Processing
+  </text>
+</svg>
