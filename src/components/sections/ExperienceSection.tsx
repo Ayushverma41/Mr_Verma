@@ -9,6 +9,8 @@ const experiences: Experience[] = [
     duration: 'Feb 2026 - Aug 2026',
     image: '/images/experience/gg removebg-preview.png',
     institutionUrl: 'https://ggits.org/',
+    details:
+      'Developed and maintained application features, worked on responsive user interfaces, and collaborated with the team to test, debug, and improve the overall user experience.',
   },
   {
     position: 'Your Second Position',
@@ -16,6 +18,8 @@ const experiences: Experience[] = [
     duration: 'Start Date - End Date',
     image: '/images/experience/institution-placeholder.svg',
     institutionUrl: 'https://example.com',
+    details:
+      'Add a short summary of your responsibilities, the projects you contributed to, and the impact of your work at this company.',
   },
 ];
 

@@ -24,6 +24,7 @@ export type Experience = {
   duration: string;
   image: string;
   institutionUrl: string;
+  details: string;
 };
 
 export type Certificate = {
