@@ -13,13 +13,13 @@ const experiences: Experience[] = [
       'Engineered a scalable, full-stack ERP system from scratch to automate complex institutional workflows. Developed robust cross-platform mobile apps using Flutter and optimized data-heavy backends via PHP, SQL, and RESTful APIs, significantly improving application performance and system integration.',
   },
   {
-    position: 'Your Second Position',
-    institution: 'Second Institution Name',
-    duration: 'Start Date - End Date',
-    image: '/images/experience/institution-placeholder.svg',
-    institutionUrl: 'https://example.com',
+    position: 'Web Development Trainee',
+    institution: 'Ordnance Factory Khamaria',
+    duration: 'May 2025',
+    image: '/images/experience/Ordnance_factory_board.webp',
+    institutionUrl: 'https://ddpdoo.gov.in/en/main/home',
     details:
-      'Add a short summary of your responsibilities, the projects you contributed to, and the impact of your work at this company.',
+      'Completed an intensive industrial training program covering networking, cybersecurity, and full-stack development. Acquired hands-on experience in enterprise software workflows, secure coding practices, and cross-functional team collaboration in a professional environment.',
   },
 ];
 
@@ -28,7 +28,7 @@ export default function ExperienceSection() {
     <Section id="experience">
       <Header
         title="Experience"
-        subtitle="Professional roles, internships, and institutional experience"
+        subtitle="Professional roles, internships, Trainings, and institutional experience"
       />
       <div className="space-y-5">
         {experiences.map((experience) => (
