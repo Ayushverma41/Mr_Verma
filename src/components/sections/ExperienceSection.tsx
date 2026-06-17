@@ -10,7 +10,7 @@ const experiences: Experience[] = [
     image: '/images/experience/gg removebg-preview.png',
     institutionUrl: 'https://ggits.org/',
     details:
-      'Developed and maintained application features, worked on responsive user interfaces, and collaborated with the team to test, debug, and improve the overall user experience.',
+      'Engineered a scalable, full-stack ERP system from scratch to automate complex institutional workflows. Developed robust cross-platform mobile apps using Flutter and optimized data-heavy backends via PHP, SQL, and RESTful APIs, significantly improving application performance and system integration.',
   },
   {
     position: 'Your Second Position',
